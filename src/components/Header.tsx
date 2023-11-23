@@ -4,8 +4,8 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import Loader from "../shared/Loader";
 import { CgClose } from "react-icons/cg";
 import { SlMenu } from "react-icons/sl";
-import ytLogo from "../images/yt-logo.png";
-import ytLogoMobile from "../images/yt-logo-mobile.png";
+import ytLogo from "../images/clipit.png";
+import ytLogoMobile from "../images/clipit-mobile.png";
 import { IoIosSearch } from "react-icons/io";
 import { RiVideoAddLine } from "react-icons/ri";
 import { FiBell } from "react-icons/fi";
@@ -46,8 +46,8 @@ const Header = () => {
           </div>
         )}
         <Link to="/" className="flex h-5 items-center">
-          <img className="h-full hidden dark:md:block" src={ytLogo} alt="Youtube"/>
-          <img className="h-full md:hidden" src={ytLogoMobile} alt="Youtube" />
+          <img className="h-[36px] hidden dark:md:block" src={ytLogo} alt="Youtube"/>
+          <img className="h-[30px] md:hidden" src={ytLogoMobile} alt="Youtube" />
         </Link>
       </div>
       <div className="group flex items-center">

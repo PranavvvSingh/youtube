@@ -13,13 +13,13 @@ type optionsType= {
   };
 };
 
-const options:optionsType = {
+const options: optionsType = {
   params: {
     hl: "en",
     gl: "US",
   },
   headers: {
-    "X-RapidAPI-Key": "c5cf0767b9msh4ac4b1f858db397p118362jsne3578fdbe066",
+    "X-RapidAPI-Key": "cc43de1244mshd459ac0b91ee9bbp1825d0jsn81baab9c57c6",
     "X-RapidAPI-Host": "youtube138.p.rapidapi.com",
   },
 };
